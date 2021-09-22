@@ -1,0 +1,475 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(images/avenger.PNG);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25vh;
+    width: 100%;
+    background-color:  rgba(0, 0, 0, 0.8);
+    font-size: 30px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.h1{
+    align-content: center;
+}
+
+/*----------------- Nav Bar ---------------*/
+
+/* Adds a black background color to the top navigation */
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Changes the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+
+
+  /*--------- CHARACTER CARD THOR----------*/
+
+  .card2{
+    position: relative;
+    width: 790px;
+    height: 390px;
+    margin: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 20px;
+    background: linear-gradient(135deg, #d41e31,#491f8f);
+}
+
+.card2 img{
+    position: absolute;
+    bottom: 0;
+    left: 70%;
+    transform: translate(-50%);
+    background-image: none;
+    height: 344px;
+}
+
+/* hover over image to see information*/
+.card2:hover img{
+    left: 100%;
+    height: 200px;
+}
+
+.card2  .content2{
+    position: relative;
+    width: 50%;
+    left: 30%;
+    padding: 20px 20px 20px 40px;
+    transition: 0.5s;  
+}
+
+/* moves text to the left when hovering over text */
+.card2:hover .content2{
+    left: 0%;
+    visibility: visible;
+    left: 0%;
+}
+
+.card2 .content2 h2{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 2.5cm;
+    line-height: 1cm;
+    float: inline-start;
+
+}
+
+.card2 .content2 p{
+    color: #fff;
+}
+
+
+
+/*--------- CHARACTER CARD HULK ----------*/
+
+.card3{
+  position: relative;
+  width: 790px;
+  height: 390px;
+  margin: 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 20px;
+  background: linear-gradient(135deg, #d41e31,#491f8f);
+}
+
+.card3 img{
+  position: absolute;
+  bottom: 0;
+  left: 70%;
+  transform: translate(-50%);
+  background-image: none;
+  height: 344px;
+}
+
+/* hover over image to see information*/
+.card3:hover img{
+  left: 100%;
+  height: 200px;
+}
+
+.card3  .content3{
+  position: relative;
+  width: 50%;
+  left: 30%;
+  padding: 20px 20px 20px 40px;
+  transition: 0.5s;  
+}
+
+/* moves text to the left when hovering over text */
+.card3:hover .content3{
+  left: 0%;
+  visibility: visible;
+  left: 0%;
+}
+
+.card3 .content3 h2{
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 2.5cm;
+  line-height: 1cm;
+  float: inline-start;
+
+}
+
+.card3 .content3 p{
+  color: #fff;
+}
+
+  
+  /*--------- CHARACTER CARD IRON MAN----------*/
+
+  .card2{
+    position: relative;
+    width: 790px;
+    height: 390px;
+    margin: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 20px;
+    background: linear-gradient(135deg, #d41e31,#491f8f);
+}
+
+.card2 img{
+    position: absolute;
+    bottom: 0;
+    left: 70%;
+    transform: translate(-50%);
+    background-image: none;
+    height: 344px;
+}
+
+/* hover over image to see information*/
+.card2:hover img{
+    left: 100%;
+    height: 200px;
+}
+
+.card2  .content2{
+    position: relative;
+    width: 50%;
+    left: 30%;
+    padding: 20px 20px 20px 40px;
+    transition: 0.5s;  
+}
+
+/* moves text to the left when hovering over text */
+.card2:hover .content2{
+    left: 0%;
+    visibility: visible;
+    left: 0%;
+}
+
+.card2 .content2 h2{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 2.5cm;
+    line-height: 1cm;
+    float: inline-start;
+
+}
+
+.card2 .content2 p{
+    color: #fff;
+}
+
+
+
+/*--------- CHARACTER CARD HULK ----------*/
+
+.card3{
+  position: relative;
+  width: 790px;
+  height: 390px;
+  margin: 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 20px;
+  background: linear-gradient(135deg, #d41e31,#491f8f);
+}
+
+.card3 img{
+  position: absolute;
+  bottom: 0;
+  left: 70%;
+  transform: translate(-50%);
+  background-image: none;
+  height: 344px;
+}
+
+/* hover over image to see information*/
+.card3:hover img{
+  left: 100%;
+  height: 200px;
+}
+
+.card3  .content3{
+  position: relative;
+  width: 50%;
+  left: 30%;
+  padding: 20px 20px 20px 40px;
+  transition: 0.5s;  
+}
+
+/* moves text to the left when hovering over text */
+.card3:hover .content3{
+  left: 0%;
+  visibility: visible;
+  left: 0%;
+}
+
+.card3 .content3 h2{
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 2.5cm;
+  line-height: 1cm;
+  float: inline-start;
+
+}
+
+.card3 .content3 p{
+  color: #fff;
+}
+
+
+/*--------- CHARACTER CARD HAWKEYE----------*/
+
+.card4{
+  position: relative;
+  width: 790px;
+  height: 390px;
+  margin: 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 20px;
+  background: linear-gradient(135deg, #d41e31,#491f8f);
+}
+
+.card4 img{
+  position: absolute;
+  bottom: 0;
+  left: 70%;
+  transform: translate(-50%);
+  background-image: none;
+  height: 344px;
+}
+
+/* hover over image to see information*/
+.card4:hover img{
+  left: 100%;
+  height: 200px;
+}
+
+.card4  .content4{
+  position: relative;
+  width: 50%;
+  left: 30%;
+  padding: 20px 20px 20px 40px;
+  transition: 0.5s;  
+}
+
+/* moves text to the left when hovering over text */
+.card4:hover .content4{
+  left: 0%;
+  visibility: visible;
+  left: 0%;
+}
+
+.card4 .content4 h2{
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 2.5cm;
+  line-height: 1cm;
+  float: inline-start;
+
+}
+
+.card4 .content4 p{
+  color: #fff;
+}
+
+
+/*--------- CHARACTER CARD CAPTAIN AMERICA----------*/
+
+.card5{
+  position: relative;
+  width: 790px;
+  height: 390px;
+  margin: 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 20px;
+  background: linear-gradient(135deg, #d41e31,#491f8f);
+}
+
+.card5 img{
+  position: absolute;
+  bottom: 0;
+  left: 70%;
+  transform: translate(-50%);
+  background-image: none;
+  height: 344px;
+}
+
+/* hover over image to see information*/
+.card5:hover img{
+  left: 100%;
+  height: 200px;
+}
+
+.card5  .content5{
+  position: relative;
+  width: 50%;
+  left: 30%;
+  padding: 20px 20px 20px 40px;
+  transition: 0.5s;  
+}
+
+/* moves text to the left when hovering over text */
+.card5:hover .content5{
+  left: 0%;
+  visibility: visible;
+  left: 0%;
+}
+
+.card5 .content5 h2{
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 2.5cm;
+  line-height: 1cm;
+  float: inline-start;
+}
+
+.card5 .content5 p{
+  color: #fff;
+}
+
+
+/*--------- CHARACTER CARD BLACK WIDOW----------*/
+
+.card6{
+  position: relative;
+  width: 790px;
+  height: 390px;
+  margin: 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 20px;
+  background: linear-gradient(135deg, #d41e31,#491f8f);
+}
+
+.card6 img{
+  position: absolute;
+  bottom: 0;
+  left: 70%;
+  transform: translate(-50%);
+  background-image: none;
+  height: 344px;
+}
+
+/* hover over image to see information*/
+.card6:hover img{
+  left: 100%;
+  height: 200px;
+}
+
+.card6  .content6{
+  position: relative;
+  width: 50%;
+  left: 30%;
+  padding: 20px 20px 20px 40px;
+  transition: 0.5s;  
+}
+
+/* moves text to the left when hovering over text */
+.card6:hover .content6{
+  left: 0%;
+  visibility: visible;
+  left: 0%;
+}
+
+.card6 .content6 h2{
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 2.5cm;
+  line-height: 1cm;
+  float: inline-start;
+}
+
+.card6 .content6 p{
+  color: #fff;
+}
+
+
+
+
+  
+
+
+  
+  
+
+
+
+
